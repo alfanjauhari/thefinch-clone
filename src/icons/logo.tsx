@@ -8,6 +8,8 @@ export const Logo = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>(
         width={203}
         height={70}
         fill="none"
+        viewBox="0 0 203 70"
+        ref={ref}
         {...props}
       >
         <path
@@ -24,7 +26,7 @@ export const Logo = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>(
         />
       </svg>
     );
-  },
+  }
 );
 
 Logo.displayName = "Logo";

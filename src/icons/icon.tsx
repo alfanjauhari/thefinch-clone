@@ -8,6 +8,7 @@ export const Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>(
         width={60}
         height={60}
         fill="none"
+        viewBox="0 0 60 60"
         ref={ref}
         {...props}
       >
@@ -21,7 +22,7 @@ export const Icon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>(
         />
       </svg>
     );
-  },
+  }
 );
 
 Icon.displayName = "Icon";
