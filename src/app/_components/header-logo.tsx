@@ -19,7 +19,7 @@ export function HeaderLogo() {
   const [iconRef, animateIcon] = useAnimate();
 
   useMotionValueEvent(scrollY, "change", (latest) => {
-    const scrolled = latest > 20;
+    const scrolled = latest > 30;
 
     animateLogo(logoRef.current, {
       opacity: scrolled ? 0 : 1,

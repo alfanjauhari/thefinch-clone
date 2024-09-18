@@ -59,7 +59,7 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center px-8 pt-5 sticky top-0 z-50">
+    <header className="flex justify-between items-center px-8 pt-5 sticky top-0 z-50 max-h-24 overflow-y-hidden">
       <HeaderLogo />
       <NavigationMenu>
         <NavigationMenuList>
